@@ -7,5 +7,14 @@ DedSec OS is a custom Unix-based OS designed for penetration testing and cyberse
 - Equipped with penetration testing tools
 - Custom branding and UI/UX
 
+## List of Tools Suppourted : 
+- nmap 
+- nikto 
+- hydra 
+- john 
+- wireshark 
+- netcat 
+- aircrack-ng
+
 ## Bug Reports:
 Please report any bugs via email: [jejo205713@gmail.com](mailto:jejo205713@gmail.com)
