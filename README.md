@@ -81,14 +81,33 @@
 - Minimum **512MB RAM** and **5GB storage**
 - Optional: `bdsinstall` script for ISO deployment
 
+---
+
 ### ⚡ Quick Install via VM Image
 
-1. Download the `RougeBSD.vmdk`,
-2. Create a new VM using FreeBSD 13+ settings with 64bit arch,
+1. Download the `RougeBSD.vmdk` (it will be compressed as `.zst`),
+2. Create a new VM using FreeBSD 13+ settings with 64-bit architecture,
 3. Attach the image and boot up.
 4. Login using default credentials:
    - **Username:** `root`
    - **Password:** `nyu1`
+
+---
+
+### 📦 Decompress `.zst` VM Image on Windows
+
+If you downloaded a `.zst` compressed image, here's how to extract it:
+
+#### ✅ Option 1: **GUI (Easy) — Use PeaZip**
+- Download PeaZip from: [https://peazip.github.io](https://peazip.github.io)
+- Right-click the `.zst` file → “Extract here”
+
+#### ✅ Option 2: **Command Line (Power Users)**
+1. Download the Zstandard tool from [https://github.com/facebook/zstd/releases](https://github.com/facebook/zstd/releases)
+2. Open `cmd` or `PowerShell` in the folder containing `zstd.exe` and your image
+3. Run:
+   ```bash
+   zstd -d RougeBSD.vmdk.zst
 
 ---
 
