@@ -1,4 +1,5 @@
 # 🐉 RougeBSD: A Minimalist BSD-Based Pentesting Distro
+## *Created and maintained by **Jejo J***
 
 **RougeBSD** is a custom Unix-like operating system built on top of **FreeBSD**, designed to be a **lightweight**, **efficient**, and **powerful** penetration testing distro for VMs and minimal hardware. Ideal for cybersecurity students, ethical hackers, and advanced users who need full control over their system — with zero bloat.
 
@@ -58,8 +59,8 @@
 
 ### ⚡ Quick Install via VM Image
 
-1. Download the `RougeBSD.ova`, `.vmdk`, or ISO file.
-2. Create a new VM using FreeBSD 13+ settings.
+1. Download the `RougeBSD.vmdk`,
+2. Create a new VM using FreeBSD 13+ settings with 64bit arch,
 3. Attach the image and boot up.
 4. Login using default credentials:
    - **Username:** `root`
@@ -85,3 +86,5 @@ pkg update && pkg upgrade
 ```
 startx
 ```
+
+
