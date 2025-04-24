@@ -8,7 +8,7 @@
 
 - 🧠 **Built for Pentesting** – Comes with powerful offensive security tools.
 - 🐚 **Unix Philosophy** – Minimalism and performance over fluff.
-- 🖥️ **Lightweight WM (DWM)** – Ultra-minimal window manager with custom keybindings.
+- 🖥️ **Lightweight WM** – Ultra-minimal window manager with custom keybindings.
 - ⚡ **Blazing Fast** – Optimized boot time and minimal RAM usage.
 - 🧱 **FreeBSD Hardened Base** – Uses jails, PF firewall, and secure configurations.
 - 💾 **VM-Ready** – Runs seamlessly in VirtualBox, VMware, and QEMU.
@@ -32,11 +32,11 @@
 
 ## 🪶 Desktop Environment
 
-- 💻 **Openbox** and **DWM (Dynamic Window Manager)** installed from source
+- 💻 **Openbox** installed from source
 - ⌨️ Minimal keyboard-driven workflows
 - 🧩 St (Simple Terminal) for DWM
 - 🖼️ Xorg for graphical environment
-- ⚙️ Custom `~/.xinitrc` configured to launch DWM
+- ⚙️ Custom `~/.xinitrc` configured to launch Openbox
 
 ---
 
