@@ -172,4 +172,7 @@ pkg update && pkg upgrade
 startx
 ```
 
-
+### Credits:
+```
+special thanks to my Girlfriend - emotional suppourt
+```
