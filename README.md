@@ -1,4 +1,4 @@
-# 🐉 RougeBSD: A Minimalist BSD-Based Pentesting Distro
+# 🐉 RougeBSD: A Minimalist Unix-Based Pentesting Distro
 ## *Created and maintained by **Jejo J***
 
 **RougeBSD** is a custom Unix-like operating system built on top of **FreeBSD**, designed to be a **lightweight**, **efficient**, and **powerful** penetration testing distro for VMs and minimal hardware. Ideal for cybersecurity students, ethical hackers, and advanced users who need full control over their system — with zero bloat.
