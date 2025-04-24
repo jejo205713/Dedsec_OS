@@ -109,6 +109,24 @@ If you downloaded a `.zst` compressed image, here's how to extract it:
    ```bash
    zstd -d RougeBSD.vmdk.zst
 
+### 🐧 Decompress `.zst` VM Image on Linux
+
+If you're on Linux and downloaded a `.zst` compressed image:
+
+#### 📦 Method 1: Using `zstd` (CLI)
+
+1. Install `zstd` if not already available:
+
+   ```bash
+   sudo apt install zstd        # Debian/Ubuntu
+   sudo dnf install zstd        # Fedora/RHEL
+   sudo pacman -S zstd          # Arch
+
+2.Decompress the file with this command:
+```bash
+zstd -d RougeBSD.vmdk.zst
+```
+
 ---
 
 ## 🧪 Post-Install (First Boot)
