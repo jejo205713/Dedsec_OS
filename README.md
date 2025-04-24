@@ -127,6 +127,24 @@ If you're on Linux and downloaded a `.zst` compressed image:
 zstd -d RougeBSD.vmdk.zst
 ```
 
+folks wait if u guys get an memory error while extracting this shit in linux ! 
+### Try this :
+
+Run the following command:
+```
+zstd -d --long=31 ROUGEBSD_FINAL.vdi.zst
+```
+OR (if you prefer setting memory manually):
+```
+zstd -d --memory=2048MB ROUGEBSD_FINAL.vdi.zst
+```
+
+💡 Explanation:
+
+    --long=31 tells Zstd to allow large window size during decompression (same as it was during compression).
+
+    --memory=2048MB allocates 2GB RAM to decoding. You can go higher if needed.
+
 ---
 
 ## 🧪 Post-Install (First Boot)
