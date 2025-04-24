@@ -75,6 +75,12 @@
 
 ## 📜 Installation
 
+### 🔽 Image File
+
+You can download the RogueBSD virtual disk image here:  
+👉 [**Download ROUGEBSD_FINAL.vdi.zst**](https://www.mediafire.com/file/s4cp5058wjsfnfy/ROUGEBSD_FINAL.vdi.zst/file)
+
+
 ### 🔧 Requirements
 
 - VirtualBox, VMware, QEMU, or bare-metal x86_64 system
