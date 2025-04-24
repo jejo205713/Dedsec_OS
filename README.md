@@ -48,6 +48,30 @@
 - **Boot Time:** ~5 seconds in VM
 
 ---
+## 🖼️ Gallery
+
+> Screenshots from RougeBSD in action.
+
+<div align="center">
+
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/jejo205713/RougeBSD_OS/main/RogueBSD_images/neofetch.png" width="400"/></td>
+    <td><img src="https://raw.githubusercontent.com/jejo205713/RougeBSD_OS/main/RogueBSD_images/openbox.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/jejo205713/RougeBSD_OS/main/RogueBSD_images/openbox2.png" width="400"/></td>
+    <td><img src="https://raw.githubusercontent.com/jejo205713/RougeBSD_OS/main/RogueBSD_images/rougebsd_metasploit.png" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/jejo205713/RougeBSD_OS/main/RogueBSD_images/rougebsd_nmap.png" width="400"/></td>
+    <td></td>
+  </tr>
+</table>
+
+</div>
+
+---
 
 ## 📜 Installation
 
